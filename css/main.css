@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #070707;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.header {
+    padding-top: 32px;
+    /*Делает отступ сверху*/
+}
+
+.container {
+    width: 1445px;
+    margin: 0 auto;
+    /* border: 1px solid black */
+}
+
+.big {
+    font-size: 18px;
+    font-family: 'Oswald';
+    font-weight: 700;
+
+}
+
+a {
+    color: #070707;
+    text-decoration: none;
+    /*убирает нахуй ссылки*/
+
+}
+
+
+.nav {
+    
+    display: flex;
+    /*делает строку*/
+    justify-content: space-between;
+    /*оцентровывает все слова по строке*/
+    align-items: center;
+    /*оцентровывает все*/
+
+}
+
+.text {
+    color: #828282;
+}
