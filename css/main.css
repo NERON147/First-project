@@ -65,8 +65,8 @@ a {
 
 .vertical_text {
     /* transform: rotate(-90deg); */
-    /* writing-mode: vertical-rl;
-    padding-top: 105px; */
+    writing-mode: vertical-rl;
+    padding-top: 105px;
 }
 
 .about {
