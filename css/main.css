@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    width: 1445px;
+    width: 940.6px;
     margin: 0 auto;
     /* border: 1px solid black */
 }
@@ -22,28 +22,82 @@ body {
     font-size: 18px;
     font-family: 'Oswald';
     font-weight: 700;
-
 }
 
 a {
     color: #070707;
     text-decoration: none;
     /*убирает нахуй ссылки*/
-
 }
 
-
 .nav {
-    
+
     display: flex;
     /*делает строку*/
     justify-content: space-between;
     /*оцентровывает все слова по строке*/
     align-items: center;
     /*оцентровывает все*/
-
 }
 
 .text {
     color: #828282;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.den {
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 47.3392px;
+    line-height: 59px;
+}
+
+.des {
+    font-family: 'Oswald';
+    font-size: 18px;
+    line-height: 22px;
+    padding: 100px;
+}
+
+.vertical_text {
+    transform: rotate(-90deg);
+}
+
+.about {
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+}
+
+.aboutme {
+    text-align: center;
+    font-size: 18px;
+}
+
+.sdvig {
+    padding-top: 200px;
+}
+
+.skill {
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.i {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 40px;
+}
+
+.ps {
+    width: 940.6px;
+    padding-top: 83.5px;
 }
