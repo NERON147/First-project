@@ -66,13 +66,13 @@ a {
     font-family: 'Oswald';
     font-size: 18px;
     line-height: 22px;
-    padding: 105px;
+    padding: 98px;
 }
 
 .vertical_text {
     /* transform: rotate(-90deg); */
     writing-mode: vertical-rl;
-    padding-top: 105px;
+    padding-top: 100px;
 }
 
 .img {
