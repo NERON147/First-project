@@ -124,5 +124,68 @@ a {
 .ps {
     width: 940.6px;
     padding-top: 83.5px;
+    padding-bottom: 100px;
 }
 
+.protfolio {
+    text-align: center;
+    padding-top: 100px;
+    background-color: #F6F6F6;
+    padding-bottom: 100px;
+    width: 100%;
+
+}
+
+.port {
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.baba {
+    padding-top: 20px;
+    
+}
+
+.online {
+    font-size: 18px;
+    text-decoration: underline
+}
+
+.sport {
+    padding-top: 100px;
+}
+
+.reebok_text {
+    font-size: 18px;
+    text-decoration: underline
+}
+
+.braun {
+    padding-top: 100px;
+}
+
+.braun_text {
+    font-size: 18px;
+    text-decoration: underline
+}
+
+.end {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.contact {
+    text-align: center;
+    
+}
+
+.con {
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.want {
+    font-size: 18px;
+}
