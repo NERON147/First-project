@@ -7,6 +7,10 @@ body {
     font-weight: 400;
 }
 
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
 .header {
     padding-top: 32px;
     /*Делает отступ сверху*/
@@ -46,7 +50,8 @@ a {
 }
 
 .line {
-    border-bottom: 1px solid #828282; /* Параметры линии */
+    border-bottom: 1px solid #828282;
+    /* Параметры линии */
     padding-top: 20px;
 }
 
@@ -67,12 +72,13 @@ a {
     font-size: 18px;
     line-height: 22px;
     padding: 98px;
+    padding-left: 15px;
 }
 
 .vertical_text {
-    /* transform: rotate(-90deg); */
+    transform: rotate(180deg);
     writing-mode: vertical-rl;
-    padding-top: 100px;
+    padding-top: 118px;
 }
 
 .img {
@@ -83,16 +89,21 @@ a {
     font-family: 'Oswald';
     font-weight: 700;
     font-size: 34px;
-    text-align: center;
+    
 }
 
 .aboutme {
-    text-align: center;
+    
     font-size: 18px;
 }
 
+
 .sdvig {
+    text-align: center;
     padding-top: 100px;
+    background-color: #F6F6F6;
+    padding-bottom: 100px;
+
 }
 
 .skill {
@@ -100,7 +111,7 @@ a {
     font-weight: 700;
     font-size: 34px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: px;
 }
 
 .i {
